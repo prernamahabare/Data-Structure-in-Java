@@ -6,6 +6,7 @@ public class LetterCombination {
 
     public static void main(String[] args) {
         System.out.println(letterCombinations("273"));
+        System.out.println(letterCombinations("12"));
     }
 
     private static ArrayList<String> letterCombinations(String digits) {
