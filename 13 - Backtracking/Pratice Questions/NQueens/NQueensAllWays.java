@@ -20,7 +20,7 @@ public class NQueensAllWays {
             printBoard(board);
             return;
         }
-
+        
         // column loop
         for (int col = 0; col < board.length; col++) {
             if (isSafe(row, col, board)) {
